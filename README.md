@@ -4,7 +4,6 @@ VSCode extension allowing you to check the latest videos from fireship.io YouTub
 
 Shoutout to [fireship.io](https://www.youtube.com/c/fireship) and [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified) for inspiring this project
 
-#100SecondsOfCode #TheCodeReport 
 
 ## Usage
 
