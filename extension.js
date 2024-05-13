@@ -4,13 +4,12 @@ const xmlParser = require('fast-xml-parser');
 const opn = require('opn');
 var videos;
 
-/**
- * @param {vscode.ExtensionContext} context
- */
 async function activate(context) {
 	videos = getVideos();
 	let disposable = vscode.commands.registerCommand('fireship-io-please.videos', searchVideos);
 	context.subscriptions.push(disposable);
+
+	vscode.window.showInformationMessage(`I use Arch btw 🔥`);
 }
 
 async function getVideos() {
@@ -33,7 +32,6 @@ async function searchVideos() {
 	});
 	if (vid) {
 		console.log(vid);
-		vscode.window.showInformationMessage(`I use Arch btw 🔥`);
 		opn(vid.link);
 	}
 }
