@@ -3,6 +3,9 @@
   "displayName": "fireship.io - Videos",
   "description": "Stay up to date with the latest from fireship.io YouTube",
   "version": "0.0.1",
+  "publisher": "mikeymon",
+  "author": {"name": "Michael Mondoro"},
+  "icon": "images/icon.png",
   "repository": 
   {
     "url": "https://github.com/michaelMondoro/fireshipio_vscode",
