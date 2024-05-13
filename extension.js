@@ -1,12 +1,11 @@
 const vscode = require('vscode');
 const axios = require('axios');
 const xmlParser = require('fast-xml-parser');
-const opn = require('opn');
 var videos;
 
 async function activate(context) {
 	videos = getVideos();
-	let disposable = vscode.commands.registerCommand('fireship-io-please.videos', searchVideos);
+	let disposable = vscode.commands.registerCommand('fireship_videos.videos', searchVideos);
 	context.subscriptions.push(disposable);
 
 	vscode.window.showInformationMessage(`I use Arch btw 🔥`);
@@ -31,8 +30,7 @@ async function searchVideos() {
 		matchOnDetail: true
 	});
 	if (vid) {
-		console.log(vid);
-		opn(vid.link);
+		vscode.env.openExternal(vscode.Uri.parse(vid.link));
 	}
 }
 function deactivate() {}

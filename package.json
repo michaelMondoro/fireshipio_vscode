@@ -1,5 +1,5 @@
 {
-  "name": "fireship-io-please",
+  "name": "fireship_videos",
   "displayName": "fireship.io - Videos",
   "description": "Stay up to date with the latest from fireship.io YouTube",
   "version": "0.0.1",
@@ -14,7 +14,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "fireship-io-please.videos",
+        "command": "fireship_videos.videos",
         "title": "fireship.io"
       }
     ]
@@ -35,7 +35,6 @@
   },
   "dependencies": {
     "axios": "^1.6.8",
-    "fast-xml-parser": "^3.12.13",
-    "opn": "^6.0.0"
+    "fast-xml-parser": "^3.12.13"
   }
 }
