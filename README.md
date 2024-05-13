@@ -1,4 +1,4 @@
-## fireship.io - VS Code
+## fireship - VS Code
 
 VSCode extension allowing you to check the latest videos from fireship.io YouTube right in your editor
 
