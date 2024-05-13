@@ -3,6 +3,11 @@
   "displayName": "fireship.io - Videos",
   "description": "Stay up to date with the latest from fireship.io YouTube",
   "version": "0.0.1",
+  "repository": 
+  {
+    "url": "https://github.com/michaelMondoro/fireshipio_vscode",
+    "type": "github"
+  },
   "engines": {
     "vscode": "^1.89.0"
   },
@@ -25,13 +30,8 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/mocha": "^10.0.6",
     "@types/node": "18.x",
-    "@types/vscode": "^1.89.0",
-    "@vscode/test-cli": "^0.0.9",
-    "@vscode/test-electron": "^2.3.9",
-    "eslint": "^8.57.0",
-    "typescript": "^5.4.5"
+    "@types/vscode": "^1.89.0"
   },
   "dependencies": {
     "axios": "^1.6.8",
