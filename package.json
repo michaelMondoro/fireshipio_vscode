@@ -12,7 +12,7 @@
     "type": "github"
   },
   "engines": {
-    "vscode": "^1.89.0"
+    "vscode": "^1.50.0"
   },
   "categories": [
     "Other", "Education"
@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@types/node": "18.x",
-    "@types/vscode": "^1.89.0"
+    "@types/vscode": "^1.50.0"
   },
   "dependencies": {
     "axios": "^1.6.8",
