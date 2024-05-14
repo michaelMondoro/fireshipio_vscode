@@ -2,7 +2,7 @@
   "name": "fireship-videos",
   "displayName": "fireship.io - Videos",
   "description": "Stay up to date with the latest from fireship.io YouTube",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "mikeymon",
   "author": {"name": "Michael Mondoro"},
   "icon": "images/icon.png",
